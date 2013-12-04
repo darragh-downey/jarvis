@@ -1,12 +1,13 @@
 #ifndef APPLIANCEFACTORY_H
 #define APPLIANCEFACTORY_H
 #include "factory.h"
+#include "appliance.h"
 
 class ApplianceFactory: public Factory
 {
 public:
     ApplianceFactory();
-    Component* create(std::string name);
+    Appliance *create(std::string name);
 };
 
 #endif // APPLIANCEFACTORY_H

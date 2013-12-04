@@ -17,7 +17,23 @@ SOURCES += main.cpp \
     appliancefactory.cpp \
     devicefactory.cpp \
     lightfactory.cpp \
-    observer.cpp
+    memento.cpp \
+    control.cpp \
+    house.cpp \
+    command.cpp \
+    turnroomon.cpp \
+    turnroomoff.cpp \
+    turnhouseoff.cpp \
+    turncomponenton.cpp \
+    turncomponentoff.cpp \
+    addcomponent.cpp \
+    removecomponent.cpp \
+    kitchen.cpp \
+    livingroom.cpp \
+    bedroom.cpp \
+    types.cpp \
+    setuproom.cpp \
+    setupcomponent.cpp
 
 HEADERS += \
     component.h \
@@ -33,5 +49,21 @@ HEADERS += \
     appliancefactory.h \
     devicefactory.h \
     lightfactory.h \
-    observer.h
+    memento.h \
+    control.h \
+    house.h \
+    command.h \
+    turnroomon.h \
+    turnroomoff.h \
+    turnhouseoff.h \
+    turncomponenton.h \
+    turncomponentoff.h \
+    addcomponent.h \
+    removecomponent.h \
+    kitchen.h \
+    livingroom.h \
+    bedroom.h \
+    types.h \
+    setuproom.h \
+    setupcomponent.h
 

@@ -7,7 +7,7 @@ class Factory
 {
 public:
     Factory();
-    virtual Component* create(std::string name) = 0;
+    virtual Component *create(std::string name) = 0;
 protected:
     Component* component;
 };

@@ -12,6 +12,7 @@ public:
     void on();
     void setCurrent(State *s);
     float getUsage();
+    void setUsage(float usage);
 };
 
 #endif // APPLIANCE_H

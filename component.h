@@ -10,11 +10,12 @@ class Component
 public:
     Component();
     ~Component();
-    virtual std::string getName() = 0;
-    virtual void on();
-    virtual void off();
+    virtual std::string getName();
+    virtual void on() = 0;
+    virtual void off() = 0;
     virtual void setCurrent(State *s);
-    virtual float getUsage() = 0;
+    virtual float getUsage();
+    virtual void setUsage(float usage);
 protected:
     std::string name;
     float kWatts;

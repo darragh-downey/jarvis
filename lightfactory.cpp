@@ -5,7 +5,7 @@ LightFactory::LightFactory()
 {
 }
 
-Component* LightFactory::create(std::string name)
+Light *LightFactory::create(std::string name)
 {
     return new Light(name);
 }

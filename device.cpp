@@ -41,3 +41,8 @@ float Device::getUsage()
 {
     return kWatts;
 }
+
+void Device::setUsage(float usage)
+{
+    kWatts = usage;
+}

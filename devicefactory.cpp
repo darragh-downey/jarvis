@@ -5,7 +5,7 @@ DeviceFactory::DeviceFactory()
 {
 }
 
-Component* DeviceFactory::create(std::string name)
+Device *DeviceFactory::create(std::string name)
 {
     return new Device(name);
 }

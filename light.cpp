@@ -41,3 +41,8 @@ float Light::getUsage()
 {
     return kWatts;
 }
+
+void Light::setUsage(float usage)
+{
+    kWatts = usage;
+}
